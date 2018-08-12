@@ -6,14 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery-3.3.1.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
     <h1>Socket.io</h1>
-    <input id="massage" type="text">
-    <button id="btn">SEND</button>
-    <ul id="list">
-        
-    </ul>
+
+    <div id="loginbox">
+        <input id="username" placeholder="  username"type="text">
+        <button id="loginbtn">LOGIN</button>
+    </div>
+
+    <div id="chatbox" style="display: none">
+        <input id="massage" placeholder="  massage"type="text">
+        <button id="btn">SEND</button>
+         <ul id="list">
+            
+        </ul>
+    </div>
+
 </body>
 </html>
